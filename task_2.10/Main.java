@@ -30,3 +30,26 @@ class IntMatchesArray {
         return true;
     }
 }
+
+
+//Второе решение:
+
+
+public class Main {
+    public static void main(String[] args) {
+
+        int[] mass = {1, 2, 3, 5, 3, 8, 8, 1, 7, 4, 3, 8, 1, 4, 0, 3, 6, 9};
+        int a = mass[0];
+        for (int i = 1; i < mass.length; i++) {
+            System.out.println("Элемент "+i+" равен "+mass[i]);
+            if (a==mass[i]) {
+                System.out.println("Да");
+                break;
+            }
+            if (i==mass.length-1) {
+                System.out.println("Нет");
+            }
+            a = mass[i];
+        }
+    }
+}
