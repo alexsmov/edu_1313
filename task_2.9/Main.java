@@ -16,4 +16,21 @@ public class Main {
         }
     }
 
+//Второе решение:
+
+public class Main {
+    public static void main(String[] args) {
+
+        int[] mass = {2, 3, 4, };
+        for (int i = 0; i < mass.length; i++) {
+            System.out.println("Элемент "+i+" равен "+mass[i]);
+            if (mass[i]==5) {
+                System.out.println("Да");
+
+            }
+            else if (i==mass.length-1)
+                System.out.println("Нет");
+        }
+    }
+}
 
