@@ -78,3 +78,4 @@ public class Main {
         System.out.println("Записали good_ip.txt");
     }
 }
+
