@@ -96,3 +96,4 @@ public class MultiThread1 {
         System.out.println("Записали good_ip.txt");
     }
 }
+
